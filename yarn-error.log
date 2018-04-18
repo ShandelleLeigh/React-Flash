@@ -1,0 +1,49 @@
+Arguments: 
+  /usr/local/bin/node /Users/shandelleee/.yarn/bin/yarn.js add babel-core babel-loader babel-preset-latest babel-preset-stage-2 babel-preset-react webpack styled-components react react-dom --dev
+
+PATH: 
+  /Users/shandelleee/.rbenv/shims:/Users/shandelleee/arc/arcanist/bin:/Users/shandelleee/.yarn/bin:/Users/shandelleee/.config/yarn/global/node_modules/.bin:/Applications/Postgres.app/Contents/Versions/10/bin:/Users/shandelleee/.rbenv/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.5.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "react-flash",
+    "version": "1.0.0",
+    "description": "A self destructing react flash component",
+    "main": "./dist/index.js",
+    "homepage": "https://github.com/ShandelleLovato/react-flash",
+    "repository": "{
+      "type": "git",
+      "url": "https://github.com/ShandelleLovato/react-flash"
+      }",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Shandelle Lovato",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/shandelleee/Desktop/npmStuff/react-flash/package.json: Unexpected token 
+   in JSON at position 221
+      at JSON.parse (<anonymous>)
+      at /Users/shandelleee/.yarn/lib/cli.js:1036:59
+      at Generator.next (<anonymous>)
+      at step (/Users/shandelleee/.yarn/lib/cli.js:98:30)
+      at /Users/shandelleee/.yarn/lib/cli.js:109:13
+      at <anonymous>
